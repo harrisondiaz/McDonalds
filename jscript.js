@@ -1,6 +1,6 @@
 console.log("script load")
 var form1 = document.getElementById("form");
-var content =
+var content = document.getElementById("here")
 
 form1.addEventListener("submit",function(event) {
     event.preventDefault();
@@ -46,6 +46,8 @@ form1.addEventListener("submit",function(event) {
         alert("Passwords are diferents")
         return  false;
     }
-    document.getElementById("info").innerHTML = "<h1>"+name + last_name+email+birthday.toString()+address+telephone+height+password+bio+"</h1>"
+
+    const compare = document.getElementById("info");
+    compare.innerHTML = "<h1>"+name+"<br>" + last_name+"<br>"+email+"<br>"+birthday.toString()+"<br>"+address+"<br>"+telephone+"<br>"+height+"<br>"+password+"<br>"+bio+"</h1>"
 
 })
