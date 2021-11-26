@@ -48,6 +48,6 @@ form1.addEventListener("submit",function(event) {
     }
 
     const compare = document.getElementById("info");
-    compare.innerHTML = "<h1>"+name+"<br>" + last_name+"<br>"+email+"<br>"+birthday.toString()+"<br>"+address+"<br>"+telephone+"<br>"+height+"<br>"+password+"<br>"+bio+"</h1>"
+    compare.innerHTML = "<p class='text-center fw-3'>Name:"+name+"<br>Last Name:" + last_name+"<br>Email:"+email+"<br>Birthday:"+birthday.toString()+"<br>Address:"+address+"<br>Telephone:"+telephone+"<br>Height:"+height+"<br>Password:"+password+"<br>Bio:"+bio+"</p>"
 
 })
