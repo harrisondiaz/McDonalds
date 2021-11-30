@@ -89,8 +89,11 @@
 </div>
 <hr>
 *Css: el color del texto de la descripción debe ser de color amarillo. ->Realizado
+
 "color:#ffbc0e"
+<hr>
 *Javascript: cuando el usuario selecciona una hamburguesa el texto de la descripcion debe cambiar a rojo.->Realizado
+
 let burger1 = document.querySelector("#big_mac")
 let burger2 = document.querySelector("#quarter_cheese")
 let burger3 = document.querySelector("#double_quarter_cheese")
@@ -174,6 +177,7 @@ text9.style.color = '#ffbc0e'
 text9.style.color = 'red'
 }
 })
+<hr>
 *Git: se debe crear una rama llamada "Parcial_1", tener minimo 3 commits, dejar en el readme file los puntos desarrollados.->realizado
 
 *Identacion - nombre de variables, clases e ids en ingles. - buenas practicas - distribución de archivos, titulo de la web, broken links(Imágenes y urls).
