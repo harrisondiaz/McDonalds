@@ -1,6 +1,36 @@
 console.log("script load")
 var form1 = document.getElementById("form");
-var content = document.getElementById("here")
+var content = document.getElementById("here");
+
+let burger1 = document.querySelector("#big_mac")
+let burger2 = document.querySelector("#quarter_cheese")
+let burger3 = document.querySelector("#double_quarter_cheese")
+let burger4 = document.querySelector("#quarter_cheese_deluxe")
+let burger5 = document.querySelector("#mcdouble")
+let burger6 = document.querySelector("#quarter_cheese_bacon")
+let burger7 = document.querySelector("#cheeseburger")
+let burger8 = document.querySelector("#double_cheeseburger")
+let burger9 = document.querySelector("#hamburger")
+let text1 = document.querySelector("#text_big_mac")
+let text2 = document.querySelector("#text_quarter_cheese")
+let text3 = document.querySelector("#text_double_quarter_cheese")
+let text4 = document.querySelector("#text_quarter_cheese_deluxe")
+let text5 = document.querySelector("#text_mcdouble")
+let text6 = document.querySelector("#text_quarter_cheese_bacon")
+let text7 = document.querySelector("#text_cheeseburger")
+let text8 = document.querySelector("#text_double_cheeseburger")
+let text9 = document.querySelector("#text_hamburger")
+
+burger1.addEventListener('click',()=> text1.style.color = 'red')
+burger2.addEventListener('click',()=> text2.style.color = 'red')
+burger3.addEventListener('click',()=> text3.style.color = 'red')
+burger4.addEventListener('click',()=> text4.style.color = 'red')
+burger5.addEventListener('click',()=> text5.style.color = 'red')
+burger6.addEventListener('click',()=> text6.style.color = 'red')
+burger7.addEventListener('click',()=> text7.style.color = 'red')
+burger8.addEventListener('click',()=> text8.style.color = 'red')
+burger9.addEventListener('click',()=> text9.style.color = 'red')
+
 
 form1.addEventListener("submit",function(event) {
     event.preventDefault();
