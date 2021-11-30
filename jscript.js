@@ -21,15 +21,71 @@ let text7 = document.querySelector("#text_cheeseburger")
 let text8 = document.querySelector("#text_double_cheeseburger")
 let text9 = document.querySelector("#text_hamburger")
 
-burger1.addEventListener('click',()=> text1.style.color = 'red')
-burger2.addEventListener('click',()=> text2.style.color = 'red')
-burger3.addEventListener('click',()=> text3.style.color = 'red')
-burger4.addEventListener('click',()=> text4.style.color = 'red')
-burger5.addEventListener('click',()=> text5.style.color = 'red')
-burger6.addEventListener('click',()=> text6.style.color = 'red')
-burger7.addEventListener('click',()=> text7.style.color = 'red')
-burger8.addEventListener('click',()=> text8.style.color = 'red')
-burger9.addEventListener('click',()=> text9.style.color = 'red')
+burger1.addEventListener('click',function(){
+    if(text1.style.color === 'red'){
+        text1.style.color = '#ffbc0e'
+    }else{
+        text1.style.color = 'red'
+    }
+})
+
+burger2.addEventListener('click',function(){
+    if(text2.style.color === 'red'){
+        text2.style.color = '#ffbc0e'
+    }else{
+        text2.style.color = 'red'
+    }
+})
+burger3.addEventListener('click',function(){
+    if(text3.style.color === 'red'){
+        text3.style.color = '#ffbc0e'
+    }else{
+        text3.style.color = 'red'
+    }
+})
+burger4.addEventListener('click',function(){
+    if(text4.style.color === 'red'){
+        text4.style.color = '#ffbc0e'
+    }else{
+        text4.style.color = 'red'
+    }
+})
+burger5.addEventListener('click',function(){
+    if(text5.style.color === 'red'){
+        text5.style.color = '#ffbc0e'
+    }else{
+        text5.style.color = 'red'
+    }
+})
+burger6.addEventListener('click',function(){
+    if(text6.style.color === 'red'){
+        text6.style.color = '#ffbc0e'
+    }else{
+        text6.style.color = 'red'
+    }
+})
+burger7.addEventListener('click',function(){
+    if(text7.style.color === 'red'){
+        text7.style.color = '#ffbc0e'
+    }else{
+        text7.style.color = 'red'
+    }
+})
+burger8.addEventListener('click',function(){
+    if(text8.style.color === 'red'){
+        text8.style.color = '#ffbc0e'
+    }else{
+        text8.style.color = 'red'
+    }
+})
+burger9.addEventListener('click',function(){
+    if(text9.style.color === 'red'){
+        text9.style.color = '#ffbc0e'
+    }else{
+        text9.style.color = 'red'
+    }
+})
+
 
 
 form1.addEventListener("submit",function(event) {
